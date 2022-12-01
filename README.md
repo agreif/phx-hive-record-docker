@@ -22,5 +22,5 @@ $ sh run_prod.sh
 - creates a new postgresql user and database
 - migrates the phoenix database
 - checks database access
-- YOU are allowed to test the app on 'http://localhost:4000'
+- YOU are allowed to test the app on `http://localhost:4000`
 - ask to stop the containers
