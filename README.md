@@ -17,10 +17,11 @@ Builds the Docker Phoenix app image and pushes it to my public repo.
 $ sh run_prod.sh
 ```
 
+The script ...
 - sets some env vars
 - starts the containers locally via composer (postgres and phoenix app)
 - creates a new postgresql user and database
 - migrates the phoenix database
 - checks database access
-- YOU are allowed to test the app on http://localhost:4000
-- ask to stop the containers
+- lets YOU test the app on http://localhost:4000
+- asks to stop the containers
