@@ -1,5 +1,7 @@
 # phx-hive-record-docker
-Docker file for the phx-hive-record (Elixir Phoenix) project.
+Dockerfile for the phx-hive-record (Elixir Phoenix) project.
+
+Image: `agreif/phx-hiverec` on Docker Hub
 
 The Docker image contains the complete Elixir Phoenix app ... ready to run in a container.
 
