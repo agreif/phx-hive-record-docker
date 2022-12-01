@@ -1,9 +1,9 @@
 # phx-hive-record-docker
-Docker File for the phx-hive-record project
+Docker file for the phx-hive-record (Elixir Phoenix) project.
 
-The docker image contains the complete Elixir Phoenix app ... ready to run.
+The Docker image contains the complete Elixir Phoenix app ... ready to run.
 
-A sample how to start the containers via composer is descripbed in the 'run_prod.sh' script.
+A sample how to start the containers via composer is described in the 'run_prod.sh' script.
 
 # scripts
 
@@ -11,14 +11,14 @@ A sample how to start the containers via composer is descripbed in the 'run_prod
 $ sh run_build_push.sh
 ```
 
-Builds the docker image and pushes it to my public repo.
+Builds the Docker Phoenix app image and pushes it to my public repo.
 
 ```
 $ sh run_prod.sh
 ```
 
 - sets some env vars
-- starts the containers locally via composer
+- starts the containers locally via composer (postgres and phoenix app)
 - creates a new postgresql user and database
 - migrates the phoenix database
 - checks database access
