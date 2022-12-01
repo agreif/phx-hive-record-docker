@@ -14,10 +14,9 @@ $ sh run_build_push.sh
 Builds the Docker Phoenix app image and pushes it to my public repo.
 
 ```
-$ sh run_prod.sh
+$ sh run_app.sh
 ```
 
-The script ...
 - sets some env vars
 - starts the containers locally via composer (postgres and phoenix app)
 - creates a new postgresql user and database

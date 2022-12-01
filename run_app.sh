@@ -1,7 +1,8 @@
 echo "###### set env vars ############"
-POSTGRES_USER=phx_hiverec_prod
-POSTGRES_PASSWORD=phx_hiverec_prod
-POSTGRES_DATABASE=phx_hiverec_prod
+ENV=dev
+POSTGRES_USER=phx_hiverec_$ENV
+POSTGRES_PASSWORD=phx_hiverec_$ENV
+POSTGRES_DATABASE=phx_hiverec_$ENV
 DB_CONTAINER=hiverec-postgres
 
 export DATABASE_URL=ecto://$POSTGRES_USER:$POSTGRES_PASSWORD@$DB_CONTAINER/$POSTGRES_DATABASE
