@@ -1,9 +1,9 @@
 # phx-hive-record-docker
 Docker file for the phx-hive-record (Elixir Phoenix) project.
 
-The Docker image contains the complete Elixir Phoenix app ... ready to run.
+The Docker image contains the complete Elixir Phoenix app ... ready to run in a container.
 
-A sample how to start the containers via composer is described in the 'run_prod.sh' script.
+A sample how to start the containers via composer is described in the `run_prod.sh` script.
 
 # scripts
 
